@@ -1,0 +1,45 @@
+# Core LangChain framework for building LLM-powered chains, agents, and pipelines
+langchain
+
+# Loads environment variables from a .env file (e.g. API keys)
+python-dotenv
+
+# Enables running Jupyter notebooks with this conda/venv kernel
+ipykernel
+
+# Community integrations for LangChain (vector stores, document loaders, LLMs, etc.)
+# The core langchain package contains only the abstractions (base classes, interfaces).
+#  langchain-community has the actual implementations for external services
+#  — keeping the core lightweight and letting integrations be maintained independently.
+
+
+langchain-community
+
+# HuggingFace integration for LangChain — use open-source embedding models and LLMs
+langchain-huggingface
+
+# Fetch transcripts from YouTube videos for processing with LLMs
+youtube-transcript-api
+
+# Facebook AI Similarity Search — fast local vector store for semantic search / RAG
+faiss-cpu
+
+# Text splitting utilities — split documents into chunks for LLM processing
+langchain-text-splitters
+
+# OpenAI integration for LangChain — use GPT models and OpenAI embeddings
+langchain-openai
+
+# Vector store for storing and querying embeddings locally or via hosted service
+chromadb
+
+# LangChain's official Chroma integration package
+langchain-chroma
+
+# AWS Bedrock integration for LangChain — use Claude and other Bedrock models
+langchain-aws
+
+# Ollama integration for LangChain — run local LLMs like Llama, Mistral, etc.
+langchain-ollama
+
+
